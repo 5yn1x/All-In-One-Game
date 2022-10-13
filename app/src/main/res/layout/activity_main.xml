@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:textColor="@color/teal_200"
+                android:background="#00000000"
+                android:src="@drawable/bcak_b"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_b2"/>
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:textColor="@color/teal_200"
+                android:background="#00000000"
+                android:src="@drawable/back_b3"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/bsck_b4" />
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_b5"/>
+
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_b7"/>
+
+            <ImageButton
+                android:id="@+id/button6"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_b6"
+                android:textColor="@color/teal_200"/>
+        </LinearLayout>
+</ScrollView>
